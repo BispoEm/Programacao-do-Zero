@@ -1,13 +1,13 @@
 
 
 let saldov = 0
-let ranking = "Indefinido"
+let nivel = "Indefinido"
 let vitorias = 102
 let derrotas = 101
 
 function calcularRanking(v,d){
     saldoVitorias = v-d;
-    while(ranking=="Indefinido"){
+    while(nivel=="Indefinido"){
         if(v<=10){
             return nivel = "Ferro"
         } else if(v>=11 && v<=20){
